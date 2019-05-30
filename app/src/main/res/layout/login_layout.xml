@@ -8,13 +8,15 @@
     android:orientation="vertical"
     tools:context=".Login_Activity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/idToolbar"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#D66F63">
-
-    </android.support.v7.widget.Toolbar>
+        android:text="Sing In"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
